@@ -1,0 +1,38 @@
+﻿@{
+    
+    ViewData["Title"] = "Login";
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <h2>Login</h2>
+
+    <p>Use your social media account to log in:</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <a href="@Url.Action("ExternalLogin", "Account", new { provider = "Facebook" })" class="btn btn-primary btn-block">
+                <i class="fab fa-facebook-square"></i> Log in with Facebook
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a href="@Url.Action("ExternalLogin", "Account", new { provider = "LinkedIn" })" class="btn btn-info btn-block">
+                <i class="fab fa-twitter"></i> Log in with LinkedIn
+            </a>
+        </div>
+    </div>
+}
+
+@if (User.Identity.IsAuthenticated)
+{  
+    <p>You are logged in</p>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="@Url.Action("ExternalLoginCallback", "Account", new { provider = "Facebook" })" class="btn btn-primary btn-block">
+                <i class="fab fa-facebook-square"></i> Go to Account Details
+            </a>
+        </div>
+    </div>
+}
+
+

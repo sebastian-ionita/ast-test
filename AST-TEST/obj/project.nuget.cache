@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "7dSd+o26JaGuD2XcOSnN4l8CTO6EPKxQwMSGZA45/5mV8GS/rypnT6vqsnk6NeA433nnrn9KFfDaqf1xwQkenA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sebastian\\source\\repos\\AST-TEST\\AST-TEST\\AST-TEST.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sebastian\\.nuget\\packages\\aspnet.security.oauth.linkedin\\6.0.14\\aspnet.security.oauth.linkedin.6.0.14.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\facebook\\6.8.0\\facebook.6.8.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.15\\microsoft.aspnetcore.authentication.facebook.6.0.15.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.aspnetcore.authentication.twitter\\6.0.15\\microsoft.aspnetcore.authentication.twitter.6.0.15.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\restsharp\\106.5.4\\restsharp.106.5.4.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\restsharp.newtonsoft.json\\1.5.1\\restsharp.newtonsoft.json.1.5.1.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\servicestack\\6.8.0\\servicestack.6.8.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\servicestack.client\\6.8.0\\servicestack.client.6.8.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\servicestack.common\\6.8.0\\servicestack.common.6.8.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\servicestack.interfaces\\6.8.0\\servicestack.interfaces.6.8.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\servicestack.text\\6.8.0\\servicestack.text.6.8.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Facebook 6.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Facebook",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

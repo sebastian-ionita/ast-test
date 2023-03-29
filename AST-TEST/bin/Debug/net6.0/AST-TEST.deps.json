@@ -1,0 +1,407 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AST-TEST/1.0.0": {
+        "dependencies": {
+          "AspNet.Security.OAuth.LinkedIn": "6.0.14",
+          "Facebook": "6.8.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "6.0.15",
+          "Microsoft.AspNetCore.Authentication.Twitter": "6.0.15",
+          "RestSharp.Newtonsoft.Json": "1.5.1",
+          "ServiceStack": "6.8.0"
+        },
+        "runtime": {
+          "AST-TEST.dll": {}
+        }
+      },
+      "AspNet.Security.OAuth.LinkedIn/6.0.14": {
+        "runtime": {
+          "lib/net6.0/AspNet.Security.OAuth.LinkedIn.dll": {
+            "assemblyVersion": "6.0.14.0",
+            "fileVersion": "6.0.1422.55262"
+          }
+        }
+      },
+      "Facebook/6.8.0": {
+        "runtime": {
+          "lib/net45/Facebook.dll": {
+            "assemblyVersion": "6.0.10.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "6.0.15.0",
+            "fileVersion": "6.0.1523.12404"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Twitter/6.0.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Twitter.dll": {
+            "assemblyVersion": "6.0.15.0",
+            "fileVersion": "6.0.1523.12404"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Http/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "RestSharp/106.5.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.5.4.0",
+            "fileVersion": "106.5.4.0"
+          }
+        }
+      },
+      "RestSharp.Newtonsoft.Json/1.5.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.Serializers.Newtonsoft.Json.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
+      "ServiceStack/6.8.0": {
+        "dependencies": {
+          "ServiceStack.Client": "6.8.0",
+          "ServiceStack.Common": "6.8.0",
+          "ServiceStack.Interfaces": "6.8.0",
+          "ServiceStack.Text": "6.8.0",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Client/6.8.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "ServiceStack.Interfaces": "6.8.0",
+          "ServiceStack.Text": "6.8.0"
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Common/6.8.0": {
+        "dependencies": {
+          "ServiceStack.Interfaces": "6.8.0",
+          "ServiceStack.Text": "6.8.0",
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Interfaces/6.8.0": {
+        "runtime": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Text/6.8.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Text.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "AST-TEST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AspNet.Security.OAuth.LinkedIn/6.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wpGCn6JXSxMQpPjVAyJXibMkFhoyRZq+Bq7920QQUV3EUG04orvMdgVM+A22L7tMd09sXhU2HFKQtyhf/Qxowg==",
+      "path": "aspnet.security.oauth.linkedin/6.0.14",
+      "hashPath": "aspnet.security.oauth.linkedin.6.0.14.nupkg.sha512"
+    },
+    "Facebook/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZxkOacMFH3kIQPbthh8olls+mPAP2qSrNVQ7B79U2Js55cZtO1W1YlckiW50QAzyarQlIobW5N5mfYLJ4S+7Xg==",
+      "path": "facebook/6.8.0",
+      "hashPath": "facebook.6.8.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i4OaO3S6Mols94wvHPxkRVs8NGnZGUkyBbj0h6bIQllh6RICMXYN7z3FXnFDmHxYkwMnqb9CGz4As9iB7DtGuQ==",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.15",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.6.0.15.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Twitter/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Hj+tG4cQ+t9OblqX42yhf0zR85Msg5d9lXRybqtCTMcwDyZipi+A5HC4qUYPv4hHLDGAlH2SSE9x7ks0HlJ9A==",
+      "path": "microsoft.aspnetcore.authentication.twitter/6.0.15",
+      "hashPath": "microsoft.aspnetcore.authentication.twitter.6.0.15.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
+      "path": "microsoft.extensions.http/6.0.0",
+      "hashPath": "microsoft.extensions.http.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eIbyj40QDg1NDz0HBW0S5f3wrLVnKWnDJ/JtZ+yJDFnDj90VoPuoPmFkeaXrtu+0cKm5GRAwoDf+dBWXK0TUdg==",
+      "path": "microsoft.extensions.logging/6.0.0",
+      "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "RestSharp/106.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AOAzWW/L0YNxOLjc2foBmKFRBGNshfKXlpQrWtX9U5fArZsuiz9o9tb2QsY6uXtMEtRdKJcj3J2Mw4L6UJVaAA==",
+      "path": "restsharp/106.5.4",
+      "hashPath": "restsharp.106.5.4.nupkg.sha512"
+    },
+    "RestSharp.Newtonsoft.Json/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vQaByN85aGazf45Xfseu+/8PmTuOyngqSXr+jILFYZxr51NARQ4WAyVruJAVzfpFkqXQ9aQtw2+yaygyGafjYg==",
+      "path": "restsharp.newtonsoft.json/1.5.1",
+      "hashPath": "restsharp.newtonsoft.json.1.5.1.nupkg.sha512"
+    },
+    "ServiceStack/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5589V5Nz7pRSVDkXZk+EoT2YGx/EcScPTf3XIHnw8muqxyPZhDNIxeK4THHQWEtMoiaw9NPG5+KAzf8XuqyXSg==",
+      "path": "servicestack/6.8.0",
+      "hashPath": "servicestack.6.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Client/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cVM3hFkWh91e+ke7IU3WomTv7GIjXjADp+mrTDORLjOyjVOnBjs2Bva7F4L/9zFTEEnBZTtbJWD/4h0jtv47AA==",
+      "path": "servicestack.client/6.8.0",
+      "hashPath": "servicestack.client.6.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Common/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZfWZ085pWTR8FvwY/3GeQrMo3B/kXOsgmO580Mg34qXjOaNHa4PW5O2CRd5o7SwSibsOt7nsxvyFuQBhMHyhw==",
+      "path": "servicestack.common/6.8.0",
+      "hashPath": "servicestack.common.6.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Interfaces/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nuGklCCNPlCtJU0UQ0q5jeg3J+djI28aWWBTwH8GvTNC3E74cH+fS2aUiukiOOwW0X/Z3oIPdWHPZi4yiv77Kg==",
+      "path": "servicestack.interfaces/6.8.0",
+      "hashPath": "servicestack.interfaces.6.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Text/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SrygdfFzgeUDfr61Rcgrb3wKvIu5q+SEbsWsu5rF0WXxWjhzkguD5dHBvko8TGKrczBPbe6cNEE5v3/iYDudRA==",
+      "path": "servicestack.text/6.8.0",
+      "hashPath": "servicestack.text.6.8.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    }
+  }
+}
